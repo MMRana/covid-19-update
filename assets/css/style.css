@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sono:wght@200;300;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: url(../images/bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: scroll;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Sono', sans-serif;
+    color: #fff;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700;
+    color: #fff;
+    font-family: 'Sono', sans-serif;
+}
+
+
+.covid-contant{
+  
+    background-color: rgba(44, 44, 74, 0.3);
+}
+
+/************ Header-Part **********************************/
+.covid-contant .owner-info{
+    padding: 10px 5px;
+    border-bottom: 1px solid #ffffff99;
+}
+.covid-contant .owner-info .covid-phn{
+    color: #f5ecec;
+    transition: all .3s ease-out;
+}
+.covid-contant .owner-info .covid-phn:hover{
+    color: #fffefe;
+    text-decoration: underline;
+    transition: all .3s ease-out;
+}
+.covid-contant .owner-info .covid-phn i{
+    margin-right: 10px;
+    color: #fff;
+}
+.covid-contant .owner-info .covid-icon{
+    float: right;
+    margin-right: 15px; 
+}
+.covid-contant .owner-info .covid-icon a{
+    color: #f7f3f3
+}
+.covid-contant .owner-info .covid-icon a:hover{
+    color: #fff;
+}
+
+/*************** Main-Part ************************************/
+.covid-contant .covid-main-part {}
+.covid-main-part h2{
+    color: #efe8e8;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.covid-contant .covid-main-part h3 span{
+    color: #f9e600;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+}
+.covid-contant .covid-main-part img{
+    width: 100%;
+    height: 120px;
+}
+.covid-main-part .covid-date{
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    outline: 2px solid #f70707;
+    border: 1px dashed #f70707;
+    background-color: #1a0202;
+    box-shadow: 10px 10px 25px white;
+}
+.covid-main-part .covid-date h6{
+    color: #f8fc06;
+    border-bottom: 1px solid #cd2e2e;
+    font-family: 'Dancing Script', cursive;
+}
+.covid-main-part .covid-date p{
+    color: #f8fc06;
+    margin: auto;
+    display: block;
+    padding: 5px 0;
+}
+.covid-main-part .covid-date p i{
+    margin-right: 5px;
+}
+.covid-search-bar{
+    margin: auto;
+    margin: 15px 0;
+}
+.covid-search-bar .search-fild{
+    width: 100%;
+    outline: none;
+    height: 35px;
+    color: #131212;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid transparent;
+    transition: all .3s ease-out;
+    background: #fff url("../images/fav1.png") 
+	no-repeat center right 15px;
+
+}
+.covid-search-bar .search-fild:hover{
+    border: 1px solid #ff0000;
+    transition: all .3s ease-out;
+    background-color: #f5ededfb;
+}
+
+.covid-search-bar .covid-btn{
+    width: 100%;
+    height: 35px;
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    transition: all .3s ease-out;
+    background-color: #f70707;
+    border: 1px solid transparent;
+}
+.covid-search-bar .covid-btn:hover{
+    color: #efe8e8;
+    background-color: #cd2e2e;
+    transition: all .3s ease-out;
+}
+.covid-statistic,
+.country-covid{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: 1px solid #ff0000;
+    background: #00000061;
+    transition: all .3s ease-out;
+}
+.covid-statistic:hover,
+.country-covid:hover{
+    background: #362727ba;
+    transition: all .3s ease-out;
+}
+.covid-statistic .global-covid h4,
+.covid-statistic-country .country-covid h4{
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+}
+.covid-statistic .globa-covid p,
+.covid-statistic-country .country-covid p{
+    font-weight: 200;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+}
+.country-covid{
+    display: none;
+}
+
+/****************** Covid-Vaccine ********************************/
+.covid-vaccine{
+    position: relative;
+}
+.covid-vaccine::after{
+    content: "";
+    width: 1px;
+    height: 100%;
+    top: -25px;
+    right: 0;
+    position: absolute;
+    background-color: #ffffff61;
+}
+
+.covid-vaccine h4{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+}
+.covid-vaccine img{
+    width: 30%;
+    border-radius: 15%;
+    transition: all .3s ease-out;
+}
+.covid-vaccine img:hover{
+    filter: brightness(0.8);
+    transition: all .3s ease-out;
+}
+.covid-vaccine p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #eee;
+    font-style: italic;
+}
+.covid-vaccine p .side{
+    color: #ffffff;
+    background-color: #cd2e2e;
+    font-family: 'Dancing Script', cursive;
+}
+
+/****************** Onwner-Info ***********************************/
+.author-info{
+    position: relative;
+}
+.author-info::after{
+    content: "";
+    width: 1px;
+    height: 100%;
+    top: -16px;
+    left: 0;
+    position: absolute;
+    background-color: #ffffff61;
+}
+.author-info h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ebebea;
+    font-family: 'Dancing Script', cursive;
+}
+.author-info img{
+    width: 50%;
+    border-radius: 50%;
+    transition: all .3s ease-out;
+}
+.author-info img:hover{
+    filter: brightness(0.8);
+    transition: all .3s ease-out;
+}
+.author-info p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #eee;
+    font-style: italic;
+}
+.author-info p .slogan{
+    color: #ffffff;
+    background-color: #cd2e2e;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/****************** Footer-Part *********************************/
+.covid-footer{}
+.footer-copy p{
+    text-align: center;
+}
+.footer-copy p span{
+    color: #f0dc09;
+    transition: all .3s ease-out;
+}
+.footer-copy p span:hover{
+    color: #ffea04;
+    text-decoration: underline;
+    transition: all .3s ease-out;
+}
+.footer-icons{
+    text-align: center;
+}
+.footer-icons a{
+    color: #efe8e8;
+}
+.footer-icons a i{
+    font-size: 25px;
+    margin-right: 15px;
+    transition: all .3s ease-out;
+}
+.footer-icons a i:hover{
+    color: #d1bbbb;
+    transition: all .3s ease-out;
+}
+
+/* *********************************************************************************************/
+/***************************************************************************************************/
+/*******************************************************************************************************/
+    /* ======== Responsive Part ============= */
+
+@media (max-width: 1199px) {}
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {
+    
+    .covid-contant .owner-info .covid-icon{
+        float: left;
+        margin-top: 10px;
+    }
+    .covid-main-part h2{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .covid-main-part .covid-date{
+        width: 100%;
+        padding: 5px;
+    }
+    .covid-statistic,
+    .country-covid{
+    width: 100%;
+    padding: 2px;
+}
+
+    .author-info::after,
+    .covid-vaccine::after{
+        display: none;
+    }
+    .footer-icons{
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO-->
+    <meta name="title" content="Covid-19-website">
+    <meta name="description" content="This is a simple Covid-19  website with responsive and update status,">
+    <meta name="keywords" content="Covid, covid-19, corona, virus, update, Status, Coronavirus, vaccine,">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="1 day">
+    <meta name="author" content="M M Rana">
+     
+    <title>Covid-19-Update</title>
+    <!-- FavIcon link -->
+    <link rel="shortcut icon" href="./assets/images/fav1.png" type="image/x-icon">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/font.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="container-fluid covid-body">
+        <div class="container covid-contant">
+            <!-- Header-Part -->
+            <div class="owner-info">
+                <div class="row">
+                <div class="col-md-6">
+                        <span class="covid-phn"><i class="fas fa-phone"></i>:+880 1812330269</span>
+                 </div>
+                <div class="col-md-6">
+                    <span class="covid-icon">
+                        <a href="https://www.facebook.com/rana.ranabd.3" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.linkedin.com/in/mm-rana-a136b5207" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/MMRana" target="_blank"><i class="fab fa-github"></i></a>
+                    </span>
+                </div>
+            </div>
+            </div>
+            <!-- Main-part -->
+            <div class="row">
+                <!-- Left-site-contant -->
+               <div class="col-sm-12 col-md-3">
+                <div class="covid-vaccine">
+                    <h4 class="text-center mt-4">Covid-19 Vaccine
+                         <br>
+                       &  Advice
+                    </h4>
+                    <img src="./assets/images/vaccine.jpg"  class="img-fluid  mx-auto d-block my-4"  alt="Vaccine-Image">
+                    <p class="text-center text-wrap">Avoid crowds and close contact. Wear a properly fitted mask when physical distancing is not possible and in poorly ventilated settings. Clean your hands frequently with alcohol-based hand rub or soap and water. Cover your mouth and nose with a bent elbow or tissue when you cough or sneeze
+                        <br>
+                        <span class="side">/ Side Effects /</span>
+                        <br>
+                        <span>Side effects after a COVID-19 vaccination tend to be mild, temporary, and like those experienced after routine vaccinations. They can vary across different age groups.</span>
+                    </p>
+                </div>
+               </div>
+               <!-- Midle- Contant -->
+               <div class="col-sm-12 col-md-6">
+                    <div class="covid-main-part">
+                        <h2 class="text-center text-wrap mt-4">Covid-19 Statistics</h2>
+                        <img src="./assets/images/line.png" alt="line-Image">
+                        <h3 class="text-center">By :<span>M M RANA</span></h3>
+                        <div class="covid-date mt-3">
+                            <h6 class="text-center">Date & Time</h6>
+                            <p class=" text-center"><i class="far fa-clock"></i> <span id="time"></span> </p>
+                            <p class="text-center" id="date"></p> 
+                        </div>
+                    </div>
+
+                    <div class="covid-search-bar">
+                        <div class="row">
+                            <div class="col">
+                              <input type="text" id="search-bar" class="search-fild" placeholder="Search By Country">
+                            </div>
+                            <div class="col">
+                                <button class="covid-btn" id="search-btn" onclick="searchCountry()">Search</button>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="covid-statistic my-3">
+                        <div class="global-covid" id="global-covid-repo">
+                             <!--h4 & p  -->
+                        </div>
+                    </div>
+
+                    <div class="covid-statistic-country my-3">
+                        <div class="country-covid" id="country-covid">
+                            <!-- h4 & p -->
+                        </div>
+                    </div>
+               </div>
+                <!-- Right-site-contant -->
+               <div class="col-sm-12 col-md-3">
+                <div class="author-info">
+                    <h2 class="text-center mt-3">Owner Information</h2>
+                    <img src="./assets/images/owner.jpg" class="img-fluid  mx-auto d-block my-2" alt="Owner-image">
+                    <p class="text-center text-wrap">
+                        I am MD Muin Uddin Rana.But M M Rana is my short name. And you will find me everywhere with this name. I'm a Web Designer And Mern Stack Developer. Also i have knowledge Digital Marketing wordpress customizing. And i love to learn Every day New topics. 
+                        <br>
+                        <span class="slogan">/ My Slogan /</span>
+                        <br>
+                        <span>
+                            *Think positive
+                            *Be positive
+                            *Do positive.
+                        </span>
+                    </p>
+                </div>
+               </div>
+            </div>
+            <!-- footer-part -->
+                <footer class="covid-footer mt-4">
+                    <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="footer-copy">
+                            <p>Copyright &copy; By <span>M M Rana</span></p>
+                        </div> 
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                       <div class="footer-icons">
+                        <a href="https://www.facebook.com/rana.ranabd.3" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.linkedin.com/in/mm-rana-a136b5207" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/MMRana" target="_blank"><i class="fab fa-github"></i></a>
+                       </div>
+                    </div>
+                 </div>
+                </footer>
+            </div>
+    </section>
+
+    <!-- JS-Links -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/font.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
